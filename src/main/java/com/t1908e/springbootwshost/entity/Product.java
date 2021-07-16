@@ -11,11 +11,9 @@ import javax.persistence.Id;
 @Getter
 @Setter
 @NoArgsConstructor
-public class Student {
+public class Product {
     @Id
-    private String rollNumber;
-    private String email;
     private String name;
-    private String phone;
-    private int status;
+    private double price;
+    private int quantity;
 }
